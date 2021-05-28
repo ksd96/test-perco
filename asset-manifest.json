@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/test-perco/static/css/main.0235c024.chunk.css",
+    "main.js": "/test-perco/static/js/main.6f48d359.chunk.js",
+    "main.js.map": "/test-perco/static/js/main.6f48d359.chunk.js.map",
+    "runtime-main.js": "/test-perco/static/js/runtime-main.5d5c832a.js",
+    "runtime-main.js.map": "/test-perco/static/js/runtime-main.5d5c832a.js.map",
+    "static/js/2.6f93f4e8.chunk.js": "/test-perco/static/js/2.6f93f4e8.chunk.js",
+    "static/js/2.6f93f4e8.chunk.js.map": "/test-perco/static/js/2.6f93f4e8.chunk.js.map",
+    "index.html": "/test-perco/index.html",
+    "static/css/main.0235c024.chunk.css.map": "/test-perco/static/css/main.0235c024.chunk.css.map",
+    "static/js/2.6f93f4e8.chunk.js.LICENSE.txt": "/test-perco/static/js/2.6f93f4e8.chunk.js.LICENSE.txt",
+    "static/media/popup.scss": "/test-perco/static/media/icon-submit.a9b09606.svg",
+    "static/media/card.scss": "/test-perco/static/media/icon-more.a8d93165.svg",
+    "static/media/icon-user.8530a465.svg": "/test-perco/static/media/icon-user.8530a465.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d5c832a.js",
+    "static/js/2.6f93f4e8.chunk.js",
+    "static/css/main.0235c024.chunk.css",
+    "static/js/main.6f48d359.chunk.js"
+  ]
+}
