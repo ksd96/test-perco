@@ -1,0 +1,39 @@
+.card__button {
+  width: 100%;
+  height: 282px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+
+
+  &::before {
+    content: "";
+    width: 40%;
+    height: 40%;
+    border-radius: 15px;
+
+    background-image: url("../../img/icon-more.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    opacity: 0;
+  }
+
+  &:hover {
+    opacity: 0.8;
+
+    &::before {
+      opacity: 1;
+    }
+  }
+}

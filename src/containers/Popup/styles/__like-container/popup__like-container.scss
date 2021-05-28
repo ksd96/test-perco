@@ -1,0 +1,11 @@
+.popup__like-container {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+@media (max-width: 800px) {
+  .popup__like-container {
+    height: 10%;
+  }
+}

@@ -1,0 +1,11 @@
+@import "./__user-info/comment__user-info.scss";
+@import "./__user-photo/comment__user-photo.scss";
+@import "./__user-name/comment__user-name.scss";
+@import "./__text/comment__text.scss";
+
+.comment {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 15px;
+}

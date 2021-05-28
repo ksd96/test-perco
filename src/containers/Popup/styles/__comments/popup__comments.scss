@@ -1,0 +1,22 @@
+.popup__comments {
+  display: flex;
+  flex-direction: column;
+
+  list-style: none;
+
+  margin: 0;
+  padding: 10px;
+
+  box-sizing: border-box;
+  height: 294px;
+
+  overflow: auto;
+
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.6);
+}
+
+@media (max-width: 800px) {
+  .popup__comments {
+    height: 70%;
+  }
+}

@@ -1,0 +1,22 @@
+.popup__button-like {
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+  margin: 0;
+  padding: 0;
+
+  background-image: url("../../img/icon-like.svg");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}

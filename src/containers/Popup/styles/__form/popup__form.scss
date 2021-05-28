@@ -1,0 +1,12 @@
+.popup__form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid #212121;
+}
+
+@media (max-width: 800px) {
+  .popup__form {
+    height: 20%;
+  }
+}

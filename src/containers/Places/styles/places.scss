@@ -1,0 +1,16 @@
+@import "./__list/places__list.scss";
+@import "./__button-more/places__button-more.scss";
+
+.places {
+  display: flex;
+  flex-direction: column;
+  
+  font-family: Arial, sans-serif;
+  padding: 15px 0 36px;
+}
+
+@media screen and (max-width: 568px) {
+  .places {
+    padding: 15px 0 18px;
+  }
+}

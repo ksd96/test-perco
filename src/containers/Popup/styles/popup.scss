@@ -1,0 +1,26 @@
+@import "./__container/popup__container.scss";
+@import "./__image/popup__image.scss";
+@import "./__wrapper/popup__wrapper.scss";
+@import "./__comments/popup__comments.scss";
+@import "./__comment/popup__comment.scss";
+@import "./__form/popup__form.scss";
+@import "./__button-close/popup__button-close.scss";
+@import "./__new-comment/popup__new-comment.scss";
+@import "./__like-container/popup__like-container.scss";
+@import "./__button-like/popup__button-like.scss";
+@import "./__button-like/_active/popup__button-like_active.scss";
+@import "./__button-submit/popup__button-submit.scss";
+
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}

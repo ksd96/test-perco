@@ -1,0 +1,19 @@
+@import "./__title/header__title.scss";
+
+.header {
+  min-height: 120px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+
+  border-bottom: 1px solid #545454;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    min-height: 85px;
+  }
+  .header::before {
+    width: calc(100% + 40px);
+  }
+}

@@ -1,0 +1,16 @@
+.popup__new-comment {
+  border: none;
+  padding: 10px;
+  resize: none;
+
+  box-sizing: border-box;
+  width: 230px;
+  min-height: 50px;
+}
+
+@media (max-width: 800px) {
+  .popup__new-comment {
+    width: 75%;
+    min-height: 100%;
+  }
+}
